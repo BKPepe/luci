@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2014-05-31 13:59+0200\n"
-"Last-Translator: koli <lukas.koluch@gmail.com>\n"
+"PO-Revision-Date: 2018-07-27 20:00+0200\n"
+"Last-Translator: Josef Schlehofer <pepe.schlehofer@gmail.com>\n"
 "Language-Team: none\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -2544,7 +2544,7 @@ msgstr "Initskripty"
 
 #: modules/luci-mod-network/luasrc/view/admin_network/diagnostics.htm:98
 msgid "Install iputils-traceroute6 for IPv6 traceroute"
-msgstr ""
+msgstr "Nainstalujte balíček iputils-traceroute6 pro IPv6 traceroute"
 
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/ifaces.lua:223
 msgid "Install package %q"
@@ -2578,7 +2578,7 @@ msgstr "Přehled rozhraní"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/network.js:3
 msgid "Interface is reconnecting..."
-msgstr "Rozhraní se znovu připojuje..."
+msgstr "Rozhraní se znovu připojuje…"
 
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/wifi.lua:511
 msgid "Interface name"
@@ -2641,7 +2641,7 @@ msgstr ""
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:252
 #: themes/luci-theme-rosy/luasrc/view/themes/rosy/header.htm:316
 msgid "JavaScript required!"
-msgstr "Vyžadován JavaScript!"
+msgstr "Je vyžadován JavaScript!"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wifi_join.js:52
 msgid "Join Network"
@@ -2662,11 +2662,11 @@ msgstr "Zachovat nastavení"
 #: modules/luci-mod-status/luasrc/controller/admin/status.lua:16
 #: modules/luci-mod-status/luasrc/view/admin_status/dmesg.htm:8
 msgid "Kernel Log"
-msgstr "Záznam jádra"
+msgstr "Záznam kernelu"
 
 #: modules/luci-mod-status/luasrc/view/admin_status/index/10-system.htm:24
 msgid "Kernel Version"
-msgstr "Verze jádra"
+msgstr "Verze kernelu"
 
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/wifi.lua:794
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/wifi.lua:854
@@ -2726,11 +2726,11 @@ msgstr "Jazyk"
 
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/system.lua:24
 msgid "Language and Style"
-msgstr "Jazyk a styl"
+msgstr "Jazyk a vzhled"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/index.js:104
 msgid "Latency"
-msgstr ""
+msgstr "Odezva"
 
 #: protocols/luci-proto-hnet/luasrc/model/cbi/admin_network/proto_hnet.lua:10
 msgid "Leaf"
@@ -2743,7 +2743,7 @@ msgstr ""
 
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/dhcp.lua:41
 msgid "Leasefile"
-msgstr "Soubor zájpůjček"
+msgstr "Soubor zápůjček"
 
 #: modules/luci-base/luasrc/view/lease_status.htm:74
 #: modules/luci-base/luasrc/view/lease_status.htm:89
@@ -2862,7 +2862,7 @@ msgstr "Zátěž"
 
 #: modules/luci-mod-status/luasrc/view/admin_status/index/10-system.htm:27
 msgid "Load Average"
-msgstr "Zátěž průměrná"
+msgstr "Průměrná zátěž"
 
 #: modules/luci-mod-network/luasrc/view/admin_network/diagnostics.htm:33
 #: modules/luci-mod-system/luasrc/view/admin_system/applyreboot.htm:45
@@ -4131,11 +4131,11 @@ msgstr "Reboot"
 #: modules/luci-mod-system/luasrc/view/admin_system/applyreboot.htm:9
 #: modules/luci-mod-system/luasrc/view/admin_system/applyreboot.htm:39
 msgid "Rebooting..."
-msgstr "Rebootuji..."
+msgstr "Probíhá restartování…"
 
 #: modules/luci-mod-system/luasrc/view/admin_system/reboot.htm:11
 msgid "Reboots the operating system of your device"
-msgstr "Rebootuje operační systém vašeho zařízení"
+msgstr "Restartuje operační systém vašeho zařízení"
 
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/leds.lua:120
 msgid "Receive"
@@ -4182,7 +4182,7 @@ msgstr "Vzdálená IPv4 adresa"
 
 #: protocols/luci-proto-ipip/luasrc/model/cbi/admin_network/proto_ipip.lua:8
 msgid "Remote IPv4 address or FQDN"
-msgstr ""
+msgstr "Vzdálená IPv4 adresa nebo FQDN"
 
 #: modules/luci-mod-network/luasrc/view/admin_network/wifi_overview.htm:45
 msgid "Remove"
@@ -4211,7 +4211,7 @@ msgstr ""
 
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/wifi.lua:1121
 msgid "Required"
-msgstr ""
+msgstr "Vyžadováno"
 
 # Charter je poskytovate
 #: modules/luci-base/luasrc/model/cbi/admin_network/proto_dhcp.lua:20
@@ -4304,7 +4304,7 @@ msgstr "Vrátit zpět"
 
 #: modules/luci-base/luasrc/view/cbi/apply_widget.htm:47
 msgid "Revert changes"
-msgstr ""
+msgstr "Vrátit změny"
 
 #: modules/luci-base/luasrc/view/cbi/apply_widget.htm:166
 msgid "Revert request failed with status <code>%h</code>"
@@ -4384,15 +4384,15 @@ msgstr "Přístup přes SSH"
 
 #: protocols/luci-proto-pppossh/luasrc/model/cbi/admin_network/proto_pppossh.lua:10
 msgid "SSH server address"
-msgstr ""
+msgstr "Adresa SSH serveru"
 
 #: protocols/luci-proto-pppossh/luasrc/model/cbi/admin_network/proto_pppossh.lua:13
 msgid "SSH server port"
-msgstr ""
+msgstr "Port SSH serveru"
 
 #: protocols/luci-proto-pppossh/luasrc/model/cbi/admin_network/proto_pppossh.lua:8
 msgid "SSH username"
-msgstr ""
+msgstr "SSH uživatelské jméno"
 
 #: modules/luci-mod-system/luasrc/controller/admin/system.lua:19
 #: modules/luci-mod-system/luasrc/view/admin_system/sshkeys.htm:27
@@ -4774,15 +4774,15 @@ msgstr "Vstupní bod"
 #: modules/luci-mod-network/luasrc/controller/admin/network.lua:23
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/vlan.lua:5
 msgid "Switch"
-msgstr "Směrovač"
+msgstr "Switch"
 
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/vlan.lua:127
 msgid "Switch %q"
-msgstr "Směrovač číslo %q"
+msgstr "Switch číslo %q"
 
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/vlan.lua:126
 msgid "Switch %q (%s)"
-msgstr "Směrovač číslo %q (%s)"
+msgstr "Switch číslo %q (%s)"
 
 #: modules/luci-mod-network/luasrc/model/cbi/admin_network/vlan.lua:64
 msgid ""
@@ -4985,7 +4985,7 @@ msgstr "Následující změny byly vráceny"
 
 #: modules/luci-mod-status/luasrc/view/admin_status/routes.htm:38
 msgid "The following rules are currently active on this system."
-msgstr "Následující pravidla jsou v nyní na tomto systému aktivní."
+msgstr "Následující pravidla jsou nyní na tomto systému aktivní."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:144
 msgid "The given SSH public key has already been added."
@@ -5036,9 +5036,9 @@ msgid ""
 "next greater network like the internet and other ports for a local network."
 msgstr ""
 "Síťové porty tohoto zařízení mohou být kombinovány do několika <abbr title="
-"\"Virtualních místních sítí\">VLAN</abbr>ve kterých počítače mohou "
-"komunikovat přímo mezi sebou. <abbr title=\"Virtualní místní sítě \">VLAN</"
-"abbr>se často používají na oddělení různých siťových částí. Většinou je "
+"\"Virtualních místních sítí\">VLAN</abbr> ve kterých počítače mohou "
+"komunikovat přímo mezi sebou.<abbr title=\"Virtualní místní sítě \">VLAN</"
+"abbr> se často používají na oddělení různých siťových částí. Většinou je "
 "jeden port pro připojení k vyšší síti (Uplink) jako třeba internet a "
 "zbývající porty pro místní síť."
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2014-06-21 17:44+0200\n"
-"Last-Translator: koli <lukas.koluch@gmail.com>\n"
+"PO-Revision-Date: 2018-07-27 20:00+0200\n"
+"Last-Translator: Josef Schlehofer <pepe.schlehofer@gmail.com>\n"
 "Language-Team: none\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: applications/luci-app-statistics/luasrc/controller/luci_statistics/luci_statistics.lua:30
 msgid "CPU Frequency"
-msgstr ""
+msgstr "Frekvence CPU"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpufreq.lua:4
 msgid "CPU Frequency Plugin Configuration"
@@ -184,7 +184,7 @@ msgstr "Nastavení E-Mail pluginu"
 
 #: applications/luci-app-statistics/luasrc/controller/luci_statistics/luci_statistics.lua:36
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/thermal.lua:19
 msgid "Empty value = monitor all"
@@ -268,7 +268,7 @@ msgstr ""
 
 #: applications/luci-app-statistics/luasrc/controller/luci_statistics/luci_statistics.lua:23
 msgid "General plugins"
-msgstr ""
+msgstr "Obecné pluginy"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/openvpn.lua:17
 msgid "Generate a separate graph for each logged user"
@@ -321,7 +321,7 @@ msgstr "Hostname"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/olsrd.lua:13
 msgid "IP or hostname where to get the txtinfo output from"
-msgstr "IP nebo hostname, odkud získat txtinfo výstup"
+msgstr "IP nebo hostname, odkud získá výstup z txtinfo"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/irq.lua:5
 msgid "IRQ Plugin Configuration"
@@ -523,7 +523,7 @@ msgstr ""
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/openvpn.lua:7
 msgid "OpenVPN Plugin Configuration"
-msgstr ""
+msgstr "Nastavení OpenVPN pluginu"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/openvpn.lua:41
 msgid "OpenVPN status files"
@@ -555,7 +555,7 @@ msgstr "Port"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/apcups.lua:23
 msgid "Port for apcupsd communication"
-msgstr ""
+msgstr "Port pro komunikaci apcupsd"
 
 #: applications/luci-app-statistics/luasrc/controller/luci_statistics/luci_statistics.lua:51
 msgid "Processes"
@@ -623,11 +623,11 @@ msgstr ""
 
 #: applications/luci-app-statistics/luasrc/controller/luci_statistics/luci_statistics.lua:53
 msgid "Sensors"
-msgstr ""
+msgstr "Sensory"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/sensors.lua:64
 msgid "Sensors Plugin Configuration"
-msgstr ""
+msgstr "Nastavení pluginu pro sensory"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/network.lua:54
 msgid "Server host"
@@ -639,7 +639,7 @@ msgstr "Port serveru"
 
 #: applications/luci-app-statistics/luasrc/controller/luci_statistics/luci_statistics.lua:76
 msgid "Setup"
-msgstr ""
+msgstr "Nastavení"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/netlink.lua:57
 msgid "Shaping class monitoring"
@@ -801,9 +801,9 @@ msgid ""
 "be used in other ways as well."
 msgstr ""
 "Plugin Email vytváří unixový socket, které může být využit pro odeslání "
-"statistik o emailu běžícímu daemonu collectd. Plugin je primárně určen pro "
+"statistik o e-mailu běžícímu daemonu collectd. Plugin je primárně určen pro "
 "použití ve spojení s Mail::SpamAssasin::Plugin::Collectd, ale stejně dobře "
-"může být využit jinak."
+"může být využit i jinak."
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/entropy.lua:6
 msgid "The entropy plugin collects statistics about the available entropy."
@@ -949,11 +949,11 @@ msgstr ""
 
 #: applications/luci-app-statistics/luasrc/controller/luci_statistics/luci_statistics.lua:56
 msgid "Thermal"
-msgstr ""
+msgstr "Teploty"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/thermal.lua:4
 msgid "Thermal Plugin Configuration"
-msgstr ""
+msgstr "Nastavení pluginu pro teploty"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/contextswitch.lua:5
 msgid "This plugin collects statistics about the processor context switches."
@@ -1011,7 +1011,7 @@ msgstr ""
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/uptime.lua:5
 msgid "Uptime Plugin Configuration"
-msgstr ""
+msgstr "Nastavení pluginu Uptime"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/openvpn.lua:35
 msgid "Use improved naming schema"
@@ -1073,8 +1073,8 @@ msgstr "redukovaná velikost rrd"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/rrdtool.lua:67
 msgid "seconds; multiple separated by space"
-msgstr "sekundy, více hodnot oddělených mezerou"
+msgstr "sekundy, více hodnot oddělte pomocí mezery"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/network.lua:45
 msgid "server interfaces"
-msgstr "rozhraní serveru"
+msgstr "Rozhraní serveru"

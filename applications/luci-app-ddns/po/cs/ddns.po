@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-ddns 2.4.0-1\n"
 "POT-Creation-Date: 2016-01-30 11:07+0100\n"
-"PO-Revision-Date: 2014-06-20 23:22+0200\n"
-"Last-Translator: koli <lukas.koluch@gmail.com>\n"
+"PO-Revision-Date: 2018-07-27 20:01+0200\n"
+"Last-Translator: Josef Schlehofer <pepe.schlehofer@gmail.com>\n"
 "Language-Team: \n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -150,7 +150,7 @@ msgstr ""
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/overview.lua:75
 #: applications/luci-app-ddns/luasrc/view/ddns/system_status.htm:19
 msgid "DDNS Autostart disabled"
-msgstr ""
+msgstr "Automatické spouštění DDNS zakázáno"
 
 #: applications/luci-app-ddns/luasrc/controller/ddns.lua:74
 msgid "DDNS Client Configuration"
@@ -885,7 +885,7 @@ msgstr ""
 
 #: applications/luci-app-ddns/luasrc/view/ddns/system_status.htm:20
 msgid "enable here"
-msgstr ""
+msgstr "zde povolit"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:650
 msgid "file or directory not found or not 'IGNORE'"

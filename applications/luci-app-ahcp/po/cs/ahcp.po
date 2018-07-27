@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2014-04-23 23:01+0200\n"
-"Last-Translator: koli <lukas.koluch@gmail.com>\n"
+"PO-Revision-Date: 2018-07-27 20:00+0200\n"
+"Last-Translator: Josef Schlehofer <pepe.schlehofer@gmail.com>\n"
 "Language-Team: none\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -86,7 +86,7 @@ msgstr "pouze IPv4"
 #: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:26
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:63
 msgid "IPv6 only"
-msgstr "Pouze IPv6"
+msgstr "pouze IPv6"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:97
 msgid "Lease directory"
@@ -134,7 +134,7 @@ msgstr "Specifikuje ohlášené IPv4 a IPv6 NTP servery"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:39
 msgid "Specifies the announced IPv4 and IPv6 name servers"
-msgstr "Specifikuje ohlášené IPv4 a IPv6 názvové servery"
+msgstr "Specifikuje ohlášené IPv4 a IPv6 name servery"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:33
 msgid "Specifies the announced IPv4 and IPv6 network prefixes in CIDR notation"

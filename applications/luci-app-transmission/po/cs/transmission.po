@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2014-06-06 17:54+0200\n"
-"Last-Translator: koli <lukas.koluch@gmail.com>\n"
+"PO-Revision-Date: 2018-07-27 20:00+0200\n"
+"Last-Translator: Josef Schlehofer <pepe.schlehofer@gmail.com>\n"
 "Language-Team: none\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -113,7 +113,7 @@ msgstr "Šifrování"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:109
 msgid "Error"
-msgstr "Chyba"
+msgstr "Error"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:73
 msgid "Fast"
@@ -169,7 +169,7 @@ msgstr "Povolit lazy bitfield"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:107
 msgid "Message level"
-msgstr ""
+msgstr "Úroveň logování"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:92
 msgid "Miscellaneous"
@@ -189,7 +189,7 @@ msgstr ""
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:72
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:98
 msgid "Off"
-msgstr "Vypnuta"
+msgstr "Vypnuté"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:14
 msgid "Open Web Interface"

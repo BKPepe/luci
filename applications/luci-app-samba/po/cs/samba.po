@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2014-05-31 13:56+0200\n"
-"Last-Translator: koli <lukas.koluch@gmail.com>\n"
+"PO-Revision-Date: 2018-07-27 20:10+0200\n"
+"Last-Translator: Josef Schlehofer <pepe.schlehofer@gmail.com>\n"
 "Language-Team: none\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "Obecné nastavení"
 
 #: applications/luci-app-samba/luasrc/model/cbi/samba.lua:13
 msgid "Hostname"
-msgstr "Název počítače."
+msgstr "Název počítače"
 
 #: applications/luci-app-samba/luasrc/model/cbi/samba.lua:75
 msgid "Mask for new directories"
