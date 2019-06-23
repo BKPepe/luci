@@ -8,7 +8,7 @@ local fs    = require "nixio.fs"
 local conf  = require "luci.config"
 
 local m, s, o
-local has_ntpd = fs.access("/usr/sbin/ntpd")
+local has_ntpd = fs.access("/usr/sbin/ntpd") or fs.access("/sbin/ntpd")
 local has_zram = fs.access("/etc/init.d/zram")
 
 m = Map("system", translate("System"), translate("Here you can configure the basic aspects of your device like its hostname or the timezone."))
