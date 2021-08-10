@@ -989,6 +989,9 @@ static bool rpc_luci_get_iwinfo(struct blob_buf *buf, const char *devname,
 		if (nret & IWINFO_HTMODE_HE80)
 			blobmsg_add_string(buf, NULL, "HE80");
 
+		if (nret & IWINFO_HTMODE_HE80_80)
+			blobmsg_add_string(buf, NULL, "HE80+80");
+
 		if (nret & IWINFO_HTMODE_HE160)
 			blobmsg_add_string(buf, NULL, "HE160");
 
