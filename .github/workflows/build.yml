@@ -8,8 +8,4 @@ jobs:
   build:
     uses: BKPepe/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@improveMatrixMultiArch
     with:
-      matrix: |
-        [
-          {"arch": "x86_64", "target": "x86-64", "runtime_test": true}
-        ]
-    secrets: inherit
+      filter_archs: "x86_64,arm_cortex-a15_neon-vfpv4"
