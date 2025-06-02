@@ -8,6 +8,8 @@ jobs:
   build:
     name: Feeds Package Test Build
     uses: openwrt/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@main
-    with:
-      arch: x86_64
-      target: x86-64
+    strategy:
+      matrix:
+        include:
+          - arch: x86_64
+            target: x86-64
