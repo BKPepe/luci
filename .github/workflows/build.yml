@@ -9,6 +9,5 @@ jobs:
     name: Feeds Package Test Build
     uses: openwrt/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@main
     secrets: inherit
-    env:
-      ARCH: x86_64
-      TARGET: x86-64
+    with:
+      archs: "x86_64"
