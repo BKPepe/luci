@@ -7,9 +7,18 @@ on:
 jobs:
   build:
     name: Feeds Package Test Build
-    uses: openwrt/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@main
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         include:
           - arch: x86_64
             target: x86-64
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run multi-arch test build
+        uses: openwrt/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@main
+        with:
+          arch: ${{ matrix.arch }}
+          target: ${{ matrix.target }}
