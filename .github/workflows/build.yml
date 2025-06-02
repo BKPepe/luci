@@ -6,8 +6,13 @@ on:
 
 jobs:
   build:
-    name: Feeds Package Test Build
+    strategy:
+      matrix:
+        arch: x86_64
+        target: x86-64
+
     uses: openwrt/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@main
     secrets: inherit
-    with:
-      archs: "x86_64"
+    env:
+      ARCH: ${{ matrix.arch }}
+      TARGET: ${{ matrix.target }}
