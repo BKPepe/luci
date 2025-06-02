@@ -6,13 +6,10 @@ on:
 
 jobs:
   build:
-    strategy:
-      matrix:
-        arch: x86_64
-        target: x86-64
-
-    uses: openwrt/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@main
+    uses: BKPepe/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@improveMatrixMultiArch
+    with:
+      matrix: |
+        [
+          {"arch": "x86_64", "target": "x86-64", "runtime_test": true}
+        ]
     secrets: inherit
-    env:
-      ARCH: ${{ matrix.arch }}
-      TARGET: ${{ matrix.target }}
